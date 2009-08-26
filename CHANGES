@@ -1,0 +1,35 @@
+=====================================
+2009-08-26T02:33:50.734645Z plt-1_300
+=====================================
+
+  2009-08-26 02:30:31 (r2638) by rcaputo; polo-tk/Makefile.PL M
+
+    We use the generic svn-log.perl, not the one included in POE.
+
+  2009-08-25 17:05:17 (r2635) by rcaputo
+  polo-gtk/lib/POE/Loop A; polo-gtk/lib/POE/Loop/Gtk.pm A;
+  polo-tk/MANIFEST.SKIP A; polo-gtk/lib A; polo-gtk/MANIFEST A;
+  polo-gtk/MANIFEST.SKIP A; poe/lib/POE/Loop/TkActiveState.pm D;
+  polo-tk/Makefile.PL A; polo-tk/lib/POE A; polo-tk/lib/POE/Loop/Tk.pm A;
+  polo-gtk/Makefile.PL A; polo-tk/t/00_info.t A; polo-tk A;
+  poe/lib/POE/Loop/Gtk.pm D; polo-gtk/lib/POE A;
+  poe/lib/POE/Loop/TkCommon.pm D; polo-tk/lib/POE/Loop A; polo-tk/t A;
+  polo-gtk/README A; polo-event/lib/POE/Loop A; polo-gtk/t/00_info.t A;
+  polo-tk/MANIFEST A; polo-gtk A; polo-event/MANIFEST A; polo-event/lib
+  A; polo-gtk/t A; polo-event/MANIFEST.SKIP A;
+  polo-tk/lib/POE/Loop/TkActiveState.pm A; poe/mylib/Makefile-5005.pm M;
+  poe/lib/POE/Loop/Tk.pm D; polo-event/Makefile.PL A;
+  poe/lib/POE/Loop/Event.pm D; polo-event/lib/POE A; polo-tk/README A;
+  polo-event/README A; polo-event/lib/POE/Loop/Event.pm A;
+  polo-event/t/00_info.t A; polo-event A;
+  polo-tk/lib/POE/Loop/TkCommon.pm A; poe/MANIFEST M; polo-tk/lib A;
+  polo-event/t A
+
+    Create new project directories for POE::Loop::{Event,Tk,Gtk}. Moved
+    the loops to their new project directories. Configured the new
+    projects for CPAN distribution. Removed the event loops from POE's
+    distro configuration. 
+
+==============
+End of Excerpt
+==============
