@@ -1,4 +1,14 @@
 =====================================
+2009-08-26T15:39:28.802714Z plt-1_301
+=====================================
+
+  2009-08-26 15:31:41 (r2645) by rcaputo
+  polo-tk/lib/POE/Loop/TkActiveState.pm M; polo-tk/lib/POE/Loop/Tk.pm M;
+  polo-tk/lib/POE/Loop/TkCommon.pm M; polo-tk/Makefile.PL M
+
+    Add POE::Test::Loops to configure_requires and build_requires.
+
+=====================================
 2009-08-26T02:33:50.734645Z plt-1_300
 =====================================
 

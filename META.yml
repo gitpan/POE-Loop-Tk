@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               POE-Loop-Tk
-version:            1.300
+version:            1.301
 abstract:           Tk event loop support for POE.
 author:
     - Rocco Caputo <rcaputo@cpan.org>
@@ -8,8 +8,10 @@ license:            unknown
 distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
+    POE::Test::Loops:     1.021
 build_requires:
     ExtUtils::MakeMaker:  0
+    POE::Test::Loops:     1.021
 requires:
     POE:               1.007
     POE::Test::Loops:  1.021
