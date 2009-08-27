@@ -1,4 +1,14 @@
 =====================================
+2009-08-27T04:28:34.969753Z plt-1_302
+=====================================
+
+  2009-08-27 04:26:09 (r2652) by rcaputo
+  polo-tk/lib/POE/Loop/TkActiveState.pm M; polo-tk/lib/POE/Loop/Tk.pm M;
+  polo-tk/lib/POE/Loop/TkCommon.pm M; polo-tk/Makefile.PL M
+
+    Add the info test we forgot to include.
+
+=====================================
 2009-08-26T15:39:28.802714Z plt-1_301
 =====================================
 

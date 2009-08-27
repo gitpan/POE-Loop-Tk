@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               POE-Loop-Tk
-version:            1.301
+version:            1.302
 abstract:           Tk event loop support for POE.
 author:
     - Rocco Caputo <rcaputo@cpan.org>
