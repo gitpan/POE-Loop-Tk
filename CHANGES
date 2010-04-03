@@ -1,4 +1,26 @@
 =====================================
+2010-04-03T18:20:11.015755Z plt-1_303
+=====================================
+
+  2010-04-03 18:18:51 (r2860) by rcaputo
+  polo-tk/lib/POE/Loop/TkActiveState.pm M; polo-tk/lib/POE/Loop/Tk.pm M;
+  polo-tk/lib/POE/Loop/TkCommon.pm M; polo-tk/Makefile.PL M
+
+    Fix PLT dependencies and bump revision for release.
+
+  2010-03-24 06:52:46 (r2852) by apocal
+  poe M; polo-gtk/Makefile.PL M; polo-tk M; polo-event M; poe-test-loops
+  M; polo-gtk M
+
+    Set svn:ignore for: META.yml CHANGES run_network_tests PoLo-Gtk
+    forgot to clean run_network_tests 
+
+  2010-03-11 05:06:03 (r2837) by apocal
+  polo-event/Makefile.PL M; polo-tk/Makefile.PL M
+
+    Add "run_network_tests" to "make clean" 
+
+=====================================
 2009-08-27T04:28:34.969753Z plt-1_302
 =====================================
 

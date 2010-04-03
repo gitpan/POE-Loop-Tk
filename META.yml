@@ -1,29 +1,15 @@
 --- #YAML:1.0
-name:               POE-Loop-Tk
-version:            1.302
-abstract:           Tk event loop support for POE.
-author:
+name:                POE-Loop-Tk
+version:             1.303
+abstract:            Tk event loop support for POE.
+license:             ~
+author:              
     - Rocco Caputo <rcaputo@cpan.org>
-license:            unknown
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
-    POE::Test::Loops:     1.021
-build_requires:
-    ExtUtils::MakeMaker:  0
-    POE::Test::Loops:     1.021
-requires:
-    POE:               1.007
-    POE::Test::Loops:  1.021
-    Tk:                804.028
-resources:
-    license:     http://dev.perl.org/licenses/
-    repository:  https://poe.svn.sourceforge.net/svnroot/poe/trunk/polo-tk
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.54
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+    POE:                           1.288
+    Tk:                            804.028
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
