@@ -8,7 +8,7 @@ package POE::Loop::TkCommon;
 use POE::Loop::PerlSignals;
 
 use vars qw($VERSION);
-$VERSION = '1.304'; # NOTE - Should be #.### (three decimal places)
+$VERSION = '1.305'; # NOTE - Should be #.### (three decimal places)
 
 use Tk 800.021;
 use 5.00503;
@@ -132,12 +132,8 @@ sub loop_do_timeslice {
 
   # Check for a hung kernel.
   $self->_test_if_kernel_is_idle();
-  my $now;
-  $now = time() if TRACE_STATISTICS;
 
   DoOneEvent(ALL_EVENTS);
-
-  $self->_data_stat_add('idle_seconds', time() - $now) if TRACE_STATISTICS;
 
   # Dispatch whatever events are due.  Update the next dispatch time.
   $self->_data_ev_dispatch_due();

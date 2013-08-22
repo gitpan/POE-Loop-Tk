@@ -8,3 +8,4 @@ lib/POE/Loop/Tk.pm
 lib/POE/Loop/TkCommon.pm
 lib/POE/Loop/TkActiveState.pm
 t/00_info.t
+META.json                                Module JSON meta-data (added by MakeMaker)
